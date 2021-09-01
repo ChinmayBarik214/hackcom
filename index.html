@@ -1,77 +1,32 @@
-<style>
-    .item1 {
-      background: LightSkyBlue;
-      grid-area: header;
-    }
-  
-    .item2 {
-      background: LightSalmon;
-      grid-area: advert;
-    }
-  
-    .item3 {
-      background: PaleTurquoise;
-      grid-area: content;
-    }
-  
-    .item4 {
-      background: lightpink;
-      grid-area: footer;
-    }
-  
-    .container {
-      font-size: 1.5em;
-      min-height: 300px;
-      width: 100%;
-      background: LightGray;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 50px auto 1fr auto;
-      grid-gap: 10px;
-      grid-template-areas:
-        "header"
-        "advert"
-        "content"
-        "footer";
-    }
-  
-    @media (min-width: 300px){
-      .container{
-        grid-template-columns: auto 1fr;
-        grid-template-rows: auto 1fr auto;
-        grid-template-areas:
-          "advert header"
-          "advert content"
-          "advert footer";
-      }
-    }
-  
-    @media (min-width: 400px){
-      .container{
-        grid-template-areas:
-        /* Only change code below this line */
-          "advert header"
-          "advert content"
-          "advert footer";
-        /* Only change code above this line */
-      }
-    }
-  </style>
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-  </head>
-  <body>
-    <div class="container">
-        <div class="item1">header</div>
-        <div class="item2">advert</div>
-        <div class="item3">content</div>
-        <div class="item4">footer</div>
-      </div>
-  </body>
-  </html>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/navbar-css.css">
+  <script src="js/navbar-js.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <!-- Sticky Navbar With dropdown (Responsive) -->
+  <header id="head">
+    <h1>Nav Testing</h1>
+  </header>
+  <nav id="navBar">
+    <ul id="menu" class="">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div id="menuToggle" class="handle">Menu</div>
+  </nav>
+  <div id="pushBack"></div>
+  <section>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quasi, natus, suscipit est, at enim obcaecati ipsam tempore ipsa nisi explicabo incidunt, molestias magnam quos autem perferendis quis maxime sit. Expedita vero, illum tempora enim non impedit eaque in optio voluptates accusamus maiores architecto dolorem nemo numquam asperiores tenetur nisi, aut error recusandae possimus doloribus beatae labore, et. Dolorem illo mollitia quibusdam, voluptatem distinctio. Aspernatur laborum, similique odio! Saepe, sapiente. Explicabo nemo exercitationem dolore possimus ad odit tempora. Enim cupiditate beatae quas hic omnis ut rerum a veritatis, eum ea molestiae corporis maiores quod autem, sunt placeat! Libero error quas architecto voluptates maiores, quaerat vel tenetur nihil eum incidunt! Fugiat delectus qui possimus esse officiis, modi quo facere. Minus totam, nesciunt commodi. Consequatur asperiores soluta, velit, quae, ratione perferendis dolor cupiditate eum natus ullam quam ipsum omnis quisquam ducimus! Ad et itaque hic qui, sed modi, autem aliquid doloremque non veniam necessitatibus fugiat impedit expedita officiis facere quisquam quod animi beatae dolore nobis explicabo accusamus est ipsa! Expedita corporis, laudantium doloremque repellat, natus laborum voluptates omnis in aliquam blanditiis laboriosam dolorum nesciunt debitis culpa distinctio, ipsum vero dolorem ullam, nulla vel autem nobis. Nisi fugit illum eligendi magnam saepe facilis, consequatur veritatis beatae quisquam similique nam odit quo quibusdam, dolores officia, nemo perspiciatis dolore ipsa libero fugiat unde. Ipsum facere vel qui necessitatibus consectetur! Necessitatibus quasi consequuntur cumque est doloribus iure, harum at veniam, eligendi dolores voluptas illo hic ipsam eos a quia accusamus ea. Beatae tempore fugit numquam velit vel tenetur consectetur ut eius natus, maxime corporis blanditiis est impedit sequi unde exercitationem aliquid autem facere rem illo temporibus dolore doloribus culpa quasi! Vitae repellendus totam velit ex repudiandae magnam amet quae aut quasi qui, ut error odit alias ab quod labore enim laborum. Dicta laboriosam accusantium provident nulla.</p>
+  </section>
+  <!-- Sticky Navbar With dropdown (Responsive) -->
+</body>
+</html>
